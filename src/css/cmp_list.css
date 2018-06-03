@@ -1,0 +1,93 @@
+.jym_list{}
+.jym_list .s_header{
+    height:1.173333rem;
+    line-height: 1.173333rem;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 0.013333rem solid #E3E3E3;
+    position:relative; 
+}
+.jym_list .s_header h1{
+    margin: 0 1.813333rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1.173333rem; 
+    font-size:0.506667rem;
+}
+.jym_list .back-btn {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.333333rem;
+    height: 1.146667rem;
+    line-height: 1.146667rem;
+    text-align: center;
+    
+}
+.jym_list .back-btn {
+    width: 1.333333rem;
+    height: 1.146667rem;
+    background:url(../img/sprites-icon.png) no-repeat;
+    background-position:-6.613333rem -4.133333rem;
+    background-size:11.866667rem 11.493333rem;
+}
+.jym_list .nav{
+    height:1.04rem;
+    background: #fff;
+}
+.jym_list .nav>li{
+    float: left;
+    width: 20%;
+    line-height: 1.04rem;
+    text-align: center;
+    font-size: 0.426667rem; 
+}
+.jym_list .nav>li .paixu{
+    display:inline-block;
+    width: 0.5rem;
+    height: 0.55rem;
+}
+.jym_list .nav2{
+    padding:0 0.32rem;
+    display:none;
+   /* position:fixed;
+    z-index: 999;*/
+    background: #fff;
+    width: 100%;
+    border-bottom: 0.026667rem solid #ccc;
+}
+.jym_list .nav2 li{
+
+    height: 1.146667rem;
+    line-height: 1.146667rem;
+    font-size:0.32rem;
+    border-bottom:0.013333rem solid #eee;
+   }
+.jym_list .list_count ul{
+    padding:0.4rem;
+    background: #fff; 
+}
+.jym_list .list_count ul>li{
+    background: #eee;
+    margin-bottom:0.4rem;
+}
+.jym_list .list_count ul>li .ming{
+    line-height: 0.933333rem;
+    font-size: 0.45rem;
+}
+.jym_list .list_count ul>li img{
+    width: 100%;
+    height: 100%;
+}
+.jym_list .list_count ul>li .server{
+    line-height: 0.426667rem   ;
+    font-size: 0.346667rem;
+    color:#666;
+}
+.jym_list .list_count ul>li .price{
+    line-height: 0.88rem;
+    color:#FA5B4F;
+    font-size: 0.45rem;
+}

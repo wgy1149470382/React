@@ -1,0 +1,403 @@
+.App .head{
+    display:flex;
+    height:1.173333rem;
+}
+.App .head h1{
+        width:4.8rem;
+        height:0.693333rem;
+        background:url('./img/logo.jpg') no-repeat;
+        background-size:contain;
+        margin-top:0.24rem;
+        margin-right:1.973333rem;
+}
+.App .head .login,.sell{
+        width:1.44rem;
+        height:0.853333rem;
+        border:0.013333rem solid #DCDCDC;
+        font-size:0.32rem;
+        color:#343434;
+        line-height:0.826667rem;
+        text-align:center;
+        margin-right:0.186667rem;
+        margin-top:0.213333rem;
+        border-radius:0.066667rem;
+}
+.App .banner img{
+    width:10.0rem;
+    height:3.253333rem;
+}
+.App .simple-text{
+    height:0.826667rem;
+    text-align:center;
+    line-height:0.826667rem;
+    background-color:#FEFEE4;
+}
+.App .simple-text a{
+    font-size:0.373333rem;
+    color:#D84C57;
+}
+.App .search{
+    height:1.386667rem;
+    padding:0.266667rem 0.213333rem;   
+}
+.App .search .sousuo{
+    width:8.026667rem;
+    height:0.826667rem;
+    font-size:0.373333rem;
+    padding-left:0.266667rem;
+    border:1px solid #Dcc;
+}
+.App .search .kuaisou{
+    width:1.386667rem;
+    height:0.826667rem;
+    background-color:#4191EA;
+    color:#fff;
+    font-size:0.373333rem;
+    margin-left:0.133333rem;
+    border-radius:0.106667rem;
+}
+.App .main{
+    background-color:#EEEEEE;
+    padding-top:0.293333rem;
+}
+.App .main .home-menu{
+    width:9.573333rem;
+    height:4.293333rem;
+    background-color:#FFFFFF;
+    margin:0px auto;
+    border:1px solid #ccc;
+    display:flex;
+    flex-wrap:wrap;
+    padding:0;
+}
+.App .main .home-menu li{
+    width:20%;
+    height:2.093333rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.App .main .home-menu li span:nth-child(1){
+    display:block;
+    width:0.933333rem;
+    height:0.933333rem;
+    background:url('./img/icon-sprites-1@2x.png') -3.28rem -8.4rem no-repeat;
+    background-size:11.866667rem 11.493333rem;
+    
+}
+.App .main .home-menu li span:nth-child(2){
+    font-size:0.32rem;
+    line-height:0.666667rem;
+    color:#333;
+}
+.App .main .home-menu li:nth-child(2) span:nth-child(1){
+    background:url('./img/icon-sprites-1@2x.png') -4.373333rem -8.373333rem no-repeat;
+    background-size:11.866667rem 11.493333rem;    
+}
+.App .main .home-menu li:nth-child(3) span:nth-child(1){
+    background:url('./img/icon-sprites-1@2x.png') -8.373333rem -3.306667rem no-repeat;
+    background-size:11.866667rem 11.493333rem;    
+}
+.App .main .home-menu li:nth-child(4) span:nth-child(1){
+    background:url('./img/icon-sprites-1@2x.png') -7.666667rem -8.36rem no-repeat;
+    background-size:11.866667rem 11.493333rem;    
+}
+.App .main .home-menu li:nth-child(5) span:nth-child(1){
+    background:url('./img/icon-sprites-1@2x.png') -6.573333rem -8.36rem no-repeat;
+    background-size:11.866667rem 11.493333rem;    
+}
+.App .main .home-menu li:nth-child(6) span:nth-child(1){
+    background:url('./img/icon-sprites-1@2x.png') -8.346667rem -1.133333rem no-repeat;
+    background-size:11.866667rem 11.493333rem;    
+}
+.App .main .home-menu li:nth-child(7) span:nth-child(1){
+    background:url('./img/icon-sprites-1@2x.png') 0px -8.36rem no-repeat;
+    background-size:11.866667rem 11.493333rem;    
+}
+.App .main .home-menu li:nth-child(8) span:nth-child(1){
+    background:url('./img/icon-sprites-1@2x.png') -8.346667rem -4.4rem no-repeat;
+    background-size:11.866667rem 11.493333rem;    
+}
+.App .main .home-menu li:nth-child(9) span:nth-child(1){
+    background:url('./img/icon-sprites-1@2x.png') -1.106667rem -8.36rem no-repeat;
+    background-size:11.866667rem 11.493333rem;    
+}
+.App .main .home-menu li:nth-child(10) span:nth-child(1){
+    width:1.6rem;
+    height:1.066667rem;
+    background:url('./img/icon-sprites-1@2x.png') -5.066667rem -3.466667rem no-repeat;
+    background-size:11.866667rem 11.493333rem;    
+}
+.App .main .select{
+    width:9.573333rem;
+    margin:0px auto;
+    display:flex;
+    flex-wrap:wrap;
+    padding:0;
+    margin-top:0.24rem;
+}
+.App .main .select li{
+    width:1.066667rem;
+    height:0.666667rem;
+    text-align:center;
+    line-height:0.666667rem;
+    font-size:0.346667rem;
+    color:#fff;
+    background:#A1BCCF;
+    margin-right:0.12rem;
+    border-radius:0.053333rem;
+    margin-top:0.2rem;
+}
+.App .main .select li:nth-child(1){
+    background:#D74945;
+}
+.App .main .game-list{
+    width:9.573333rem;
+    height:5.76rem;
+    margin:0px auto;
+    display:flex;
+    flex-wrap:wrap;
+    padding:0;
+    margin-top:0.24rem;
+    background:#fff;   
+}
+.App .main .game-list li{
+    width:25%;
+    height:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.App .main .game-list li img{
+    width:1.6rem;
+    height:1.6rem;
+}
+.App .main .game-list span{
+    line-height:0.533333rem;
+    margin-top:0.133333rem;
+}
+.App .main .source-enters{
+    width:9.573333rem;
+    height:4.32rem;
+    margin:0px auto;
+    display:flex;
+    flex-wrap:wrap;
+    padding:0;
+    margin-top:0.24rem;
+    background:#fff;
+    border:1px solid #ccc;
+}
+.App .main .source-enters li{
+    width:50%;
+    height:50%;
+    border-right:1px solid #CCC;
+    border-bottom:1px solid #CCC;
+    display:flex;
+}
+.App .main .source-enters li .source-enters-left{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:3.333333rem;
+    align-items:center;
+}
+.App .main .source-enters li .source-enters-left span{
+    font-size:0.373333rem;
+    font-weight:bolder;
+    margin-bottom:12px;
+}
+.App .main .source-enters li .source-enters-left p{
+    font-size:0.32rem;
+    color:#a2a2a2;
+}
+.App .main .source-enters li .source-enters-right{
+    flex:1;
+    display:flex;
+    align-items:center;
+}
+.App .main .guess-u-like{
+    width:9.573333rem;
+    height:8.24rem;
+    margin:0px auto;
+    display:flex;
+    flex-direction:column;
+    padding:0;
+    margin-top:0.24rem;
+    background:#fff;
+    border:1px solid #ccc;   
+}
+.App .main .guess-u-like dt,dd{
+    height:14.28%;
+    border-bottom:1px solid #ccc;
+    line-height:1.173333rem;
+    font-size:0.426667rem;
+    color:#333333;
+    padding-left:0.106667rem;
+}
+.App .main .guess-u-like dd span{
+    color:#ff0000;
+    float:right;
+    padding-right:0.266667rem;
+}
+.App .main .link-module{
+    width:9.573333rem;
+    height:7.066667rem;
+    margin:0px auto;
+    display:flex;
+    flex-direction:column;
+    padding:0;
+    margin-top:0.24rem;
+    background:#fff;
+    border:1px solid #ccc;   
+}
+.App .main .link-module dt,dd{
+    height:16.66%;
+    border-bottom:1px solid #ccc;
+    font-size:0.426667rem;
+    line-height:1.173333rem;
+    padding-left:0.106667rem;
+}
+.App .main .link-module dt span{
+    float:right;
+    padding-right:0.266667rem;
+}
+.App .main .link-module dd:nth-child(2){
+    color:#ff0000;
+}
+.App .main .con-module{
+    width:9.573333rem;
+    height:4.266667rem;
+    margin:0px auto;
+    display:flex;
+    flex-direction:column;
+    padding:0;
+    margin-top:0.24rem;
+    background:#fff;
+    border:1px solid #ccc;   
+}
+.App .main .con-module li:nth-child(1){
+    font-size:0.426667rem;
+    color:#333;
+    line-height:1.173333rem;
+    padding-left:0.133333rem;
+}
+.App .main .con-module li:nth-child(1) span{
+    float:right;
+    color:#ff0000;
+    padding-right:0.266667rem;
+}
+.App .main .con-module li:nth-child(2){
+    height:1.546667rem;
+    text-align:center;
+    line-height:1.546667rem;
+}
+.App .main .con-module li:nth-child(3){
+    flex:1;
+    line-height:1.546667rem;
+    text-align:center;
+}
+.App .main .con-module li .qq-input,.lj-input{
+    width:7.466667rem;
+    height:0.826667rem;
+    font-size:0.373333rem;
+    border:1px solid #CCC;
+    padding-left:0.133333rem;
+}
+.App .main .con-module li .qq-btn,.lj-btn{
+    width:1.36rem;
+    height:0.826667rem;
+    font-size:0.373333rem;
+    background-color:#4190E9;
+    border: 1px solid #2279DA;
+    border-radius:0.053333rem;
+    vertical-align:middle;
+    margin-left:0.16rem;
+    color:#fff;
+}
+.App .main .game-list-new{
+    width:9.573333rem;
+    margin:0px auto;
+    display:flex;
+    flex-direction:column;
+    padding:0;
+    margin-top:0.24rem;
+    background:#fff;
+    border:1px solid #ccc;
+}
+.App .main .game-list-new h3{
+    font-size:0.426667rem;
+    color:#333;
+    line-height:1.173333rem;
+    border-bottom:0.013333rem solid #ccc;
+    padding-left:0.266667rem;
+}
+.App .main .game-list-new ul{
+    display:flex;    
+}
+.App .main .game-list-new ul li{
+    width:25%;
+    height:2.853333rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.App .main .game-list-new ul li img{
+    width:1.6rem;
+    height:1.6rem;
+    border-radius:0.266667rem;
+}
+.App .main .game-list-new ul li span{
+    font-size:0.32rem;
+    color:#333;
+    margin-top:0.16rem;
+}
+.App .main .game-list-new .shop-list li{
+    width:33.3%;
+    height:2.853333rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.App .main .game-list-new .partner li{
+    width:32.3%;
+    height:1.653333rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background:#f1f1f1;
+    margin-right:0.08rem;
+    margin-left:0.066667rem;
+}
+.App .main .game-list-new .partner li img{
+    width:1.76rem;
+    height:0.72rem;
+}
+.App .main .footer{
+    padding-top:0.4rem;
+    background-color:#fff;    
+}
+.App .main .footer ul{
+    height:3.466667rem;
+}
+.App .main .footer ul li{
+    text-align:center;
+    font-size:0.32rem;
+    color:#959595;
+    line-height:0.733333rem;
+}
+.swiper-container {
+    width:10.0rem;
+    height:3.253333rem;
+}
+
+
+
+
+  
+
+

@@ -1,0 +1,186 @@
+.Pay{display:flex;flex-direction: column;height:100%;}
+
+.Pay .container{
+    background:#eee;
+}
+.Pay .module-title .backbtn {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.333333rem;
+    height: 1.146667rem;
+    line-height: 1.146667rem;
+    text-align: center;
+}
+.Pay .fui-back-arr {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.266667rem;
+    height: 0.426667rem;
+    background-position: 0 -11.066667rem;
+}
+.Pay .module-title {
+    height: 1.173333rem;
+    line-height: 0.586667rem;
+    text-align: center;
+    background-color: #fff;
+    font-size: 0.253333rem;
+}
+.Pay .module-title h2 {
+    font-size: 0.453333rem;
+    line-height: 1.173333rem;
+    height:1.173333rem;
+}
+.Pay .btn-sale {
+    right: 0.266667rem;
+    width: auto;
+    padding: 0 0.266667rem;
+    top: 0.186667rem;
+    height: 0.773333rem;
+    line-height: 0.773333rem;
+    position:absolute;
+    background: #4190E9;
+    border: 0.026667rem solid #2279DA;
+    color: #fff;
+}
+.Pay .sub-con {
+    margin: 0.32rem 0.213333rem;
+}
+.Pay .list-detail {
+    background: #FFF;
+    margin: 0.32rem 0;
+}
+.Pay .list-detail dd {
+    line-height: 0.826667rem;
+    padding: 0 0.266667rem;
+    border-bottom: 0.026667rem dotted #DCDCDC;
+    overflow: hidden;
+}
+.Pay .list-detail dd .title {
+    width: 2.133333rem;
+    color: #707070;
+}
+.Pay .list-detail span {
+    display: inline-block;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.Pay .new-list-link {
+    background: #fff;
+    margin: 0.32rem 0.213333rem 0.266667rem;
+    overflow: hidden;
+    border: 0.026667rem solid #DCDCDC;
+}
+.Pay .new-list-link li{
+    height:1.333333rem;
+    line-height: 1.333333rem;
+}
+.Pay .Alipay{
+    border-bottom: 1px solid #DCDCDC;
+    position: relative;
+}
+.Pay .new-list-link li button {
+    height: 1.333333rem;
+    font-size: 0.373333rem;
+    box-sizing: border-box;
+    border: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0 0.213333rem;
+    background:#fff;
+}
+.Pay .icon-alipay{
+    display:inline-block;
+    vertical-align: middle;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-position: -400px -552px;
+    margin-right: 0.2rem;
+}
+.Pay .icon-weixin{
+    display:inline-block;
+    vertical-align: middle;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-position: -256px -552px;
+    margin-right: 0.2rem;
+}
+.Pay .service{
+    /*display: inline-block;*/
+    font-size: 0.266667rem;
+    color: #999;
+    margin-right: 0.4rem;
+    margin-top: 0.053333rem;
+    float:right;
+}
+.Pay .service span{
+    color: #de4545!important;
+    margin:0 0.133333rem;
+}
+
+.Pay .dialog-box{
+    display:none;
+    position: fixed;
+    z-index: 999;
+    top: 50%;
+    height: 4.16rem;
+    margin-top: -3.413333rem;
+    left: 50%;
+    width: 7.493333rem;
+    margin-left: -3.76rem;
+    background: #fff;
+}
+.Pay .dialog-box .bd {
+    padding: 0.426667rem 0.48rem 0;
+    font-size: 0.373333rem;
+    line-height: 0.56rem;
+    color: #747474;
+}
+.Pay .dialog-box .bd p{
+    padding: 0.293333rem 0;
+    border-bottom: 0.026667rem #f1f1f1 solid;
+    text-align: center;
+    padding-bottom: 0.533333rem;
+    color: #000;
+    font-size: 0.4rem;
+}
+.Pay .dialog-box .bd li{
+    padding: 0.293333rem 0;
+    text-align: center;
+    width: 100%;
+    font-size: 0.4rem;
+}
+.Pay .dialog-box .bd li:first-child{
+    color: #4dbb42;
+    border-bottom: 0.026667rem #f1f1f1 solid;
+}
+.Pay .overlay{
+    display:none;
+    z-index: 998;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: .5;
+}
+.Pay .win{
+    text-align: center;
+    width: 100%;
+    height:4.16rem;
+    line-height: 4.16rem;
+    color: #4dbb42;
+    font-size: 0.666667rem;
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 1000;
+    background:#ddd;
+}

@@ -1,0 +1,221 @@
+.Affirm{display:flex;flex-direction: column;height:100%;}
+
+.Affirm{
+    background:#eee;
+}
+.Affirm .module-title {
+    height: 1.173333rem;
+    line-height: 0.586667rem;
+    text-align: center;
+    background-color: #fff;
+    font-size: 0.253333rem;
+}
+.Affirm .module-title h2 {
+    font-size: 0.453333rem;
+    line-height: 1.173333rem;
+    height:1.173333rem;
+}
+.Affirm .module-title .backbtn {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.333333rem;
+    height: 1.146667rem;
+    line-height: 1.146667rem;
+    text-align: center;
+}
+.Affirm .fui-back-arr {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.266667rem;
+    height: 0.426667rem;
+    background-position: 0 -11.066667rem;
+}
+.Affirm .sub-con {
+    margin: 0.32rem 0.213333rem;
+}
+.Affirm .list-detail {
+    margin: 0.32rem 0;
+    background: #FFF;
+}
+.Affirm .list-detail dd {
+    line-height: 0.826667rem;
+    padding: 0 0.266667rem;
+    border-bottom: 0.026667rem solid #D9D9D9;
+    overflow: hidden;
+}
+.Affirm .list-detail dd .name, .list-detail dd .title {
+    color: #707070;
+    margin: 0;
+    float: left;
+}
+.Affirm .list-detail span {
+    display: inline-block;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.Affirm .list-detail dd .detail-title {
+    margin-left: 2.133333rem;
+}
+.Affirm .list-detail span:last-child{
+    width:6.906667rem;
+}
+.Affirm .list-detail dd .title {
+    width: 2.133333rem;
+    color: #707070;
+    margin: 0;
+    float: left;
+}
+.Affirm .safe-info {
+    height: auto;
+    line-height: 0.8rem;
+    margin: 0.32rem 0;
+    background: #fff;
+}
+.Affirm .list-item.goods-security-icons {
+    padding: 0.133333rem 0.133333rem 0.133333rem 2.16rem;
+    line-height: 0.746667rem;
+    position: relative;
+    border-top: none;
+    font-size: 0.32rem;
+    overflow:hidden;
+    display:block;
+}
+.Affirm .security-title,.security-icons {
+    float: left;
+    padding-left: 0.266667rem;
+    font-size: 0.373333rem;
+    color: #666;
+}
+.Affirm .security-title{
+    margin-left: -2.16rem;
+}
+.list-item.goods-security-icons span, .product-detail ..Affirm list-item.goods-security-icons span {
+    width: 2.186667rem;
+    display: inline-block;
+    line-height: 0.64rem;
+    margin-right: 0!important;
+    color: #666;
+}
+.Affirm .arrow{
+    display: block;
+    width: 0.213333rem;
+    height: 0.346667rem;
+    position: absolute;
+    right: 0.266667rem;
+    top: 50%;
+    margin-top: -0.16rem;
+}
+.Affirm .c-red{
+    color: #de4545;
+}
+.Affirm .propmt-info {
+    margin: 0.32rem 0.213333rem;
+    color: #919191;
+    line-height: 0.533333rem;
+}
+.Affirm .sub-con {
+    margin: 0.32rem 0.213333rem;
+}
+.Affirm .form-control {
+    line-height: 1.146667rem;
+    background: #fff;
+    margin: 0.186667rem 0 0.08rem;
+    font-size: 0.426667rem;
+    overflow: hidden;
+    border: 0.026667rem solid #dcdcdc;
+    color: #313131;
+}
+.Affirm .sub-con-from-control-group .form-control .label {
+    padding-top: 0.32rem;
+    padding-bottom: 0.32rem;
+    line-height: 1.2;
+}
+.Affirm .form-control .label {
+    margin-left: 0.266667rem;
+    width: 2.133333rem;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+}
+.Affirm .form-control .input-text {
+    display: block;
+    height: 1.146667rem;
+    line-height: 1.146667rem;
+    background: #fff;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    padding-left: 2.72rem;
+    padding-right: 0.266667rem;
+}
+.Affirm .input-text input {
+    display: block;
+    line-height: 0.56rem;
+    padding: 0.32rem 0 0.266667rem;
+    background: 0 0;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+.Affirm .form-control .input-text input {
+    padding: 0.293333rem 0;
+    font-size: 0.426667rem;
+}
+.Affirm .nomargin{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Affirm .argee {
+    margin: 0.32rem 0.213333rem 0.32rem;
+    padding-left: 0.533333rem;
+    line-height: 0.373333rem;
+}
+.Affirm .checkbox {
+    background: #fff;
+    width: 0.346667rem;
+    height: 0.346667rem;
+    border: 0.026667rem solid #4190e9;
+    border-radius: 0.026667rem;
+}
+.Affirm .checkbox:checked {
+    background: #4190e9;
+}
+.Affirm .btn-blue {
+    background: #4190E9;
+    color: #FFF;
+    border: 0.026667rem solid #2279DA;
+    display: block;
+    width: 100%;
+    height: 1.093333rem;
+    line-height: 1.093333rem;
+    text-align: center;
+    border-radius: 0.053333rem;
+    font-size: 0.426667rem;
+}
+.Affirm .out-of-pocket{
+    color: #de4545;
+}
+.Affirm .prompt {
+    background: #de4545;
+    padding: 0.24rem 0;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    line-height: 0.373333rem;
+    margin-top: -0.026667rem;
+    box-shadow: 0 0.026667rem 0.053333rem rgba(0,0,0,.1);
+    display:none;
+}
+.Affirm .prompt .trian {
+    width: 0;
+    height: 0;
+    border: 0.266667rem solid transparent;
+    border-bottom-color: #de4545;
+    position: absolute;
+    top: -0.48rem;
+    left: 50%;
+    margin-left: -0.266667rem;
+}

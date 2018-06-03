@@ -1,0 +1,98 @@
+.jym_register .header{
+    padding:0.746667rem 0.533333rem 0.4rem;
+}
+.jym_register .header .close-dl{
+    width:0.373333rem;
+    height:0.373333rem;
+    background-size:2.453333rem 1.546667rem;
+    background:url('../img/icon-sprites@2x_ac868ab.png') -136px -68px no-repeat;
+}
+.jym_register .session{
+    padding:0.2rem 0.666667rem;
+
+
+}
+.jym_register .session h2{
+    display:flex;
+    justify-content:center;
+    height:0.96rem;
+    align-items:center;
+}
+.jym_register .session h2 .uclogin{
+    font-size:0.373333rem;
+    color:grey;
+    margin:0 0.586667rem;
+}
+.jym_register .session h2 .reg{
+    font-size:0.506667rem;
+    color:#389af5;
+    margin:0 0.586667rem;
+}
+.jym_register .session .tab-content{
+    padding-top:1.093333rem;
+}
+.jym_register .session input{
+    width:100%;
+    height:1.386667rem;
+    border:none;
+    border-bottom:0.026667rem solid #ccc;
+    text-align:center;
+    font-size:0.506667rem;
+    outline: none;
+}
+input::-webkit-input-placeholder{
+    color:#808080;
+}
+.jym_register .session .lable{
+    width:100%;
+    height:1.173333rem;
+    background-color:#D8DADC;
+    font-size:0.48rem;
+    color:#fff;
+    line-height:1.173333rem;
+    text-align:center;
+    border-radius:0.106667rem;
+    margin-top:1.066667rem;
+}
+.jym_register .session .forget_pwd{
+    margin-top:0.4rem;
+    font-size:0.346667rem;
+    color:#bababa;
+}
+.jym_register .hint{
+    width:3.333333rem;
+    height:0.933333rem;
+    border:1px solid #DB6484;
+    position:absolute;
+    top:2.933333rem;
+    left:4.666667rem;
+    border-radius:0.2rem;
+    padding:0.026667rem 0.16rem;
+    color:#DB6484;
+}
+.jym_register .hint span{
+    width:0px;
+    height:0px;
+    border:0.16rem solid #DB6484;
+    position:absolute;
+    top:0.933333rem;
+    left:0.266667rem;
+    border-left:0.16rem solid transparent;
+    border-bottom:0.16rem solid transparent;
+    border-right:0.16rem solid transparent;
+
+}
+.jym_register .hint i{
+    width:0px;
+    height:0px;
+    border:0.133333rem solid #FFF;
+    position:absolute;
+    top:0.893333rem;
+    left:0.293333rem;
+    border-left:0.133333rem solid transparent;
+    border-bottom:0.133333rem solid transparent;
+    border-right:0.133333rem solid transparent; 
+}
+
+
+

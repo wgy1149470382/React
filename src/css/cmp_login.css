@@ -1,0 +1,141 @@
+.jym_service .header{
+    padding:0.746667rem 0.533333rem 0.4rem;
+}
+.jym_service .header .close-dl{
+    width:0.373333rem;
+    height:0.373333rem;
+    background-size:2.453333rem 1.546667rem;
+    background:url('../img/icon-sprites@2x_ac868ab.png') -136px -68px no-repeat;
+}
+.jym_service .session{
+    padding:0.2rem 0.666667rem;
+
+
+}
+.jym_service .session h2{
+    display:flex;
+    justify-content:center;
+    height:0.96rem;
+    align-items:center;
+}
+.jym_service .session h2 .uclogin{
+    font-size:0.506667rem;
+    color:#389af5;
+    margin:0 0.586667rem;
+}
+.jym_service .session h2 .register{
+    font-size:0.373333rem;
+    color:grey;
+    margin:0 0.586667rem;   
+}
+.jym_service .session .tab-content{
+    padding-top:1.093333rem;
+}
+.jym_service .session input{
+    width:100%;
+    height:1.386667rem;
+    border:none;
+    border-bottom:0.026667rem solid #ccc;
+    text-align:center;
+    font-size:0.506667rem;
+    outline: none;
+}
+input::-webkit-input-placeholder{
+    color:#808080;
+}
+.jym_service .session .lable{
+    width:100%;
+    height:1.173333rem;
+    background-color:#4390E8;
+    font-size:0.506667rem;
+    color:#fff;
+    line-height:1.173333rem;
+    text-align:center;
+    position:relative;
+    border-radius:0.106667rem;
+    margin-top:1.066667rem;
+}
+.jym_service .session .lable:hover{
+    background-color:#A1BCCF;
+}
+.jym_service .session .forget_pwd{
+    margin-top:0.4rem;
+    font-size:0.346667rem;
+    color:#bababa;
+}
+.jym_service .session .other-link{
+    display:flex;
+    justify-content:center;
+    margin-top:2.133333rem;
+}
+.jym_service .session .other-link li{
+    height:1.6rem;
+    width:1.866667rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+}
+.jym_service .session .other-link .qq-link i{
+    display:block;
+    width:0.64rem;
+    height:0.64rem;
+    background:url('../img/icon-sprites@2x_ac868ab.png') -0.906667rem -0.906667rem no-repeat;
+    background-size:2.453333rem 1.546667rem;
+}
+.jym_service .session .other-link .tb-link i{
+    display:block;
+    width:0.64rem;
+    height:0.64rem;
+    background:url('../img/icon-sprites@2x_ac868ab.png') 0px 0px no-repeat;
+    background-size:2.453333rem 1.546667rem;
+}
+.jym_service .session .other-link li span{
+    font-size:0.346667rem;
+    color:#bababa;
+}
+.jym_service .session h2 .reg{
+    font-size:0.506667rem;
+    color:#389af5;
+    margin:0 0.586667rem;
+}
+.jym_service .hint{
+    width:3.333333rem;
+    height:0.933333rem;
+    border:1px solid #DB6484;
+    position:absolute;
+    top:2.933333rem;
+    left:4.666667rem;
+    border-radius:0.2rem;
+    padding:0.026667rem 0.16rem;
+    color:#DB6484;
+}
+.jym_service .hint span{
+    width:0px;
+    height:0px;
+    border:0.16rem solid #DB6484;
+    position:absolute;
+    top:0.933333rem;
+    left:0.266667rem;
+    border-left:0.16rem solid transparent;
+    border-bottom:0.16rem solid transparent;
+    border-right:0.16rem solid transparent;
+
+}
+.jym_service .hint i{
+    width:0px;
+    height:0px;
+    border:0.133333rem solid #FFF;
+    position:absolute;
+    top:0.893333rem;
+    left:0.293333rem;
+    border-left:0.133333rem solid transparent;
+    border-bottom:0.133333rem solid transparent;
+    border-right:0.133333rem solid transparent; 
+}
+/*.jym_service .hint ._hint{
+    
+}*/
+
+
+

@@ -1,0 +1,56 @@
+.cmp_admin ul,li{margin:0;padding:0;list-style:none;}
+
+.cmp_admin{position:relative;height:100%;font-size:14px;font-family:"微软雅黑";background:#fff;overflow:hidden;}
+
+.cmp_admin .docMask{position:absolute;z-index:99;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6);}
+.cmp_admin .docBox{position:absolute;top:10%;left:50%;transform:translateX(-50%);width:500px;height:80%;padding:40px 20px 60px 20px;background:#fff;}
+.cmp_admin .docBox::before{content:"";position:absolute;top:40px;left:20px;right:20px;display:block;border-top:2px dashed #99f;}
+.cmp_admin .docBox::after{content:"";position:absolute;bottom:60px;left:20px;right:20px;display:block;border-top:2px dashed #99f;}
+.cmp_admin .docBoxUl{overflow-x:hidden;height:100%;}
+.cmp_admin .docBoxUl li{padding:10px 0;}
+.cmp_admin .docBoxUl .docBoxLiKey{display:inline-block;width:100px;font-size:14px;font-weight:bold;text-align:center;vertical-align:middle;}
+.cmp_admin .docBoxUl .docBoxLiVal{display:inline-block;width:340px;line-height:18px;font-size:12px;border:1px solid #ccc;vertical-align:middle;}
+.cmp_admin .docBoxWarn{position:absolute;top:8px;left:20px;right:20px;text-align:center;font-size:18px;font-weight:bold;}
+.cmp_admin .docBoxP{position:absolute;bottom:16px;left:20px;right:20px;text-align:center;}
+.cmp_admin .docBoxP span{display:inline-block;width:60px;height:30px;line-height:30px;margin:0 50px;background:#99f;color:#fff;font-size:16px;cursor:pointer;}
+
+
+.cmp_admin .adminLogin{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);padding:10px 0;width:300px;border:1px solid #ccc;text-align:center;background:#fff;}
+.cmp_admin .adminLogin p{font-size:20px;height:50px;line-height:50px;}
+.cmp_admin .btntxt{display:block;width:150px;padding:2px 6px;margin:0 auto 12px auto;}
+.cmp_admin .btntxt::placeholder{color:#999;}
+.cmp_admin .btnin{width:60px;height:24px;background:#66f;border:1px solid #66f;color:#fff;}
+
+
+
+.cmp_admin .adminDB{position:relative;height:100%;background:#ddd;}
+
+.cmp_admin .DBNav{position:absolute;z-index:88;width:100%;height:60px;background:#99f;overflow:hidden;z-index:99;box-shadow:0 1px 3px 0 #666;}
+.cmp_admin .DBNav li{float:left;}
+
+.cmp_admin .DBList{position:absolute;z-index:77;height:100%;width:200px;margin-top:60px;background:#f9f9f9;border-right:2px solid #99f;}
+.cmp_admin .DBList li{position:relative;height:60px;line-height:60px;background:#f9f9f9;text-align:center;font-size:20px;cursor:pointer;}
+.cmp_admin .DBList li:first-child{margin-top:-2px;}
+.cmp_admin .DBList .DBlistAct{background:#fff;border:2px solid #99f;color:#99f;font-size:22px;transition:all 0.3s;}
+.cmp_admin .DBList .DBlistAct::after{content:"";display:block;position:absolute;top:0;right:-4px;width:4px;height:100%;background:#fff;}
+
+
+.cmp_admin .DBData{position:absolute;z-index:66;left:200px;margin:60px 0 0 -200px;padding-left:200px;width:100%;height:100%;background:#fff;}
+.cmp_admin .DBData table{width:100%;text-align:center;border-collapse:collapse;}
+.cmp_admin .DBData tr{display:flex;}
+.cmp_admin .DBData th,.DBData td{overflow-y:hidden;flex:1;}
+
+.cmp_admin .DBTitle{position:absolute;z-index:55;top:0;width:100%;margin-left:-215px;padding-left:232px;height:60px;overflow:hidden;}
+.cmp_admin .DBTitle::after{content:"";display:block;position:absolute;bottom:0;width:100%;height:1px;background:#fff;border-bottom:2px dashed #99f;}
+.cmp_admin .DBTitle th{height:60px;line-height:60px;padding:0 10px;font-size:16px;}
+
+.cmp_admin .DBDoc{position:absolute;z-index:44;top:60px;width:100%;margin-left:-215px;padding-left:232px;height:100%;padding-bottom:160px;background:#fff;overflow-x:hidden;}
+.cmp_admin .DBDoc tr{margin:8px 0;}
+.cmp_admin .DBDoc td{padding:0 10px;overflow-x:hidden;}
+.cmp_admin .DBDocTxt{display:block;width:100%;height:40px;line-height:40px;border:0 none;background:#fff;text-align:center;}
+.cmp_admin .DBDocBtn{margin-top:10px;}
+
+.cmp_admin .DBpage{position:absolute;z-index:55;bottom:50px;width:100%;margin-left:-215px;padding-left:232px;height:50px;background:#fff;}
+.cmp_admin .DBpage::after{content:"";display:block;position:absolute;top:0;width:100%;height:1px;background:#fff;border-top:2px dashed #99f;}
+.cmp_admin .DBpage ul{width:100%;height:100%;overflow:hidden;}
+.cmp_admin .DBpage li{float:left;}

@@ -1,0 +1,30 @@
+.jym_footnav{
+    display:flex;
+    justify-content: space-around;
+    background:#fff;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}
+.jym_footnav li{
+    position:relative;
+}
+.jym_footnav li::before{
+    content:"";
+    display:block;
+    position:absolute;
+    right:-0.48rem;
+    top:0.36rem;
+    width:1px;
+    height:0.48rem;
+    background-color:#333;
+}
+.jym_footnav li:last-child::before{
+    display:none;
+}
+.jym_footnav a{
+    display:block;
+    font-size:0.48rem;
+    height:1.2rem;
+    line-height: 1.2rem;
+    text-align:center;
+}

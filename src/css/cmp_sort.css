@@ -1,0 +1,110 @@
+.jym_sort{}
+.jym_sort .container{
+    background:#EEEEEE;
+}
+.jym_sort .s_header{
+    height: 1.173333rem;
+    line-height: 1.173333rem;
+    text-align: center;
+    background-color: #fff;
+    border-bottom:0.013333rem solid #E3E3E3;
+    position:relative; 
+}
+.jym_sort .s_header h1{
+    margin: 0 1.813333rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1.173333rem; 
+    font-size:0.506667rem;
+}
+.jym_sort .back-btn {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.333333rem;
+    height: 1.146667rem;
+    line-height: 1.146667rem;
+    text-align: center;
+    
+}
+.jym_sort .back-btn {
+    width: 1.333333rem;
+    height: 1.146667rem;
+    background:url(../img/sprites-icon.png) no-repeat;
+    background-position:-6.613333rem -4.133333rem;
+    background-size:11.866667rem 11.493333rem;
+}
+
+.jym_sort .form-con{
+    padding: 0.266667rem 0.213333rem;
+    background: #FFF;
+    border-bottom: 0.026667rem solid #D9D9D9;
+    display:flex;
+}
+.jym_sort .search-input{
+    border: 0.026667rem solid #dcdcdc;
+    padding: 0.133333rem 0.266667rem 0.16rem;
+    background: #fff;
+    margin-right: 0.16rem;
+    position: relative;
+    flex:80%;
+}
+.jym_sort .search-input input {
+    outline: 0;
+    border: 0;
+    border: none;
+    width: 100%;
+    vertical-align: middle;
+    font-size: 0.373333rem;
+    display: block;
+}
+.jym_sort .btn-default{
+    flex:15%;
+    background:#4190EA;
+    color:#fff;
+    border-radius: 0.106667rem;
+    font-size: 0.4rem;
+}
+.jym_sort .s_main{
+    background:#EEEEEE;
+}
+.jym_sort .main_t{
+    height: 0.96rem;
+    line-height: 0.96rem;
+    font-size:0.373333rem;
+    padding:0 0.213333rem;
+    color:#A8A8A8;
+}
+
+.jym_sort .select-letter{
+    display:flex;
+    flex-wrap:wrap;
+    text-align: center;
+    padding-left:0.373333rem;
+}
+.jym_sort .select-letter .active{
+    background: #009900;
+}
+.jym_sort .select-letter li{
+    flex:6.5%;background: #A1BCCF;
+    margin-right:4%;
+    margin-bottom:0.4rem;
+    font-size: 0.373333rem;
+    line-height: 0.56rem;
+    color:#fff;
+    border-radius: 0.053333rem;
+}
+.jym_sort .s_count {padding:0.32rem;}
+.jym_sort .s_count ul{
+    background: #fff;
+    padding:0 0.32rem;
+}
+.jym_sort .s_count ul>li{
+   line-height: 1.0rem;
+    border-bottom:0.026667rem solid #ddd;
+    font-size: 0.346667rem;
+}
+
+

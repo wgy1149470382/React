@@ -1,0 +1,274 @@
+.jym_my .header{
+    height:1.173333rem;
+    font-size:0.48rem;
+    line-height:1.173333rem;
+    text-align:center;
+    background-color:#fff;
+    position:relative;    
+}
+.jym_my .header i{
+    display:block;
+    width:0.266667rem;
+    height:0.426667rem;
+    background:url('../img/icon-sprites-1@2x.png') 0 -830px no-repeat;
+    background-size:11.866667rem 11.493333rem;
+    position:absolute;
+    top:0.373333rem;
+    left:0.4rem;
+    z-index:9999;
+}
+.jym_my .my-center{
+    background-color:#EEEEEE;
+    padding-top:0.333333rem;
+}
+.jym_my .my-center .news{
+    width:9.6rem;
+    background-color:#fff;
+    border:1px solid #ccc;
+    margin:0 auto;
+    
+}
+.jym_my .my-center .news .news-head{
+    height:1.173333rem;
+    border-bottom:0.013333rem solid #ccc;
+    font-size:0.373333rem;
+    display:flex;
+    align-items:center;
+    position:relative;
+    padding-left:0.16rem;
+}
+.jym_my .my-center .news .news-head .ck-btn{
+    width:1.333333rem;
+    height:0.826667rem;
+    border:2px solid #DCDCDC;
+    text-align:center;
+    line-height:0.826667rem;
+    border-radius:0.053333rem;
+    position:absolute;
+    top:0.16rem;
+    right:0.213333rem;
+}
+.jym_my .my-center .news .news-head span{
+    color:#de4545;
+}
+.jym_my .my-center .news .message-info{
+    display:flex;
+    flex-wrap:wrap;
+}
+.jym_my .my-center .news .message-info li{
+    width:50%;
+    height:1.0rem;
+    font-size:0.373333rem;
+    line-height:1.0rem;
+    padding-left:0.133333rem;
+}
+.jym_my .my-center .news .message-info span{
+    color:#de4545;
+}
+.jym_my .my-center .login-module{
+    width:9.6rem;
+    background-color:#fff;
+    border:1px solid #ccc;
+    margin:0 auto;
+    margin-top:0.2rem;
+}
+.jym_my .my-center .login-module li{
+    height:1.173333rem;
+    font-size:0.373333rem;
+    display:flex;
+    align-items:center;
+    position:relative;
+    border-bottom:1px solid #ccc;
+    padding-left:0.2rem;
+}
+.jym_my .my-center .login-module li div{
+    width:1.333333rem;
+    height:0.826667rem;
+    border:2px solid #DCDCDC;
+    text-align:center;
+    line-height:0.826667rem;
+    border-radius:0.053333rem;
+    position:absolute;
+    top:0.16rem;
+    right:0.213333rem;   
+}
+.jym_my .my-center .Account-number h3{
+    width:9.6rem;
+    height: 1.173333rem;
+    font-size:0.373333rem;
+    line-height:1.173333rem;
+    padding-left:0.2rem;
+    background-color:#fff;
+    margin:0 auto;
+    margin-top:0.213333rem;
+}
+.jym_my .my-center .Account-number ul{
+    width:9.6rem;
+    margin:0 auto;
+    margin-top:0.213333rem;
+    display:flex;
+    justify-content:space-between;        
+}
+.jym_my .my-center .Account-number ul li{
+    width:2.96rem;
+    height:0.8rem;
+    border:0.026667rem solid #ccc;
+    border-radius:0.053333rem;
+    background-color:#fff;
+    text-align:center;
+    font-size:0.373333rem;
+    line-height:0.8rem;
+}
+.jym_my .my-center .Account-number ul .highlight{
+    background-color:#4390E8;
+    color:#fff;
+}
+.jym_my .my-center .buyer-management{
+    width:9.6rem;
+    margin:0 auto;
+    background-color:#fff;
+    border:0.013333rem solid #ccc;
+    margin-top:0.266667rem;
+}
+.jym_my .my-center .buyer-management h2{
+    height:1.173333rem;
+    font-size:0.373333rem;
+    line-height:1.173333rem;
+    padding-left:0.2rem;
+    border-bottom:1px solid #ccc;
+    position:relative;
+}
+.jym_my .my-center .buyer-management ul{
+    display:flex;
+    flex-wrap:wrap;
+}
+.jym_my .my-center .buyer-management ul li{
+    width:33.33%;
+    height:2.56rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border-bottom:0.013333rem solid #ccc;        
+}
+.jym_my .my-center .buyer-management ul li>span{
+    display:block;
+    width:1.6rem;
+    height:1.6rem;
+    background-color:#A2BDD0;
+    border-radius:0.266667rem;
+
+}
+.jym_my .my-center .buyer-management ul li p{
+    font-size:0.32rem;
+    margin-top:0.133333rem;    
+}
+.jym_my .my-center .buyer-management ul li p span{
+    color:#de4545;
+}
+.jym_my .my-center .buyer-management ul li:nth-child(1) span{
+    background-image:url('../img/icon_mycenter.png');
+    background-size: 1.6rem auto;
+    background-position: 0 0px;
+}
+.jym_my .my-center .buyer-management ul li:nth-child(2) span{
+    background-image:url('../img/icon_mycenter.png');
+    background-size: 1.6rem auto;
+    background-position: 0 -1.6rem;
+}
+.jym_my .my-center .buyer-management ul li:nth-child(3) span{
+    background-image:url('../img/icon_mycenter.png');
+    background-size: 1.6rem auto;
+    background-position: 0 -3.2rem;
+}
+.jym_my .my-center .buyer-management ul li:nth-child(4) span{
+    background-image:url('../img/icon_mycenter.png');
+    background-size: 1.6rem auto;
+    background-position: 0 -12.8rem;
+}
+.jym_my .my-center .buyer-management ul li:nth-child(5) span{
+    background-image:url('../img/icon_mycenter.png');
+    background-size: 1.6rem auto;
+    background-position: 0 -25.6rem;
+}
+.jym_my .my-center .buyer-management ul li:nth-child(6) span{
+    background-image:url('../img/icon_mycenter.png');
+    background-size: 1.6rem auto;
+    background-position: 0 -20.8rem;
+}
+.jym_my .my-center .Seller h2 span{
+    display:block;
+    width:1.466667rem;
+    height:0.826667rem;
+    background-color:#4390E8;
+    font-size:0.373333rem;
+    text-align:center;
+    line-height:0.826667rem;
+    color:#fff;
+    position:absolute;
+    top:0.16rem;
+    right:0.16rem;
+    border:1px solid #2279DA;
+}
+.jym_my .my-center .Seller ul li:nth-child(1) span{
+    background-image:url('../img/icon_mycenter.png');
+    background-size: 1.6rem auto;
+    background-position: 0 -4.8rem;
+}
+.jym_my .my-center .Seller ul li:nth-child(2) span{
+    background-image:url('../img/icon_mycenter.png');
+    background-size: 1.6rem auto;
+    background-position: 0 -1.6rem;
+}
+.jym_my .my-center .Seller ul li:nth-child(4) span{
+    background-image:url('../img/icon_mycenter.png');
+    background-size: 1.6rem auto;
+    background-position: 0 -8.0rem;
+}
+.jym_my .my-center .Seller ul li:nth-child(5) span{
+    background-image:url('../img/icon_mycenter.png');
+    background-size: 1.6rem auto;
+    background-position: 0 -9.6rem;
+}
+.jym_my .my-center .Seller ul li:nth-child(6) span{
+    background-image:url('../img/icon_mycenter.png');
+    background-size: 1.6rem auto;
+    background-position: 0 -11.2rem;
+}
+.jym_my .my-center .Seller ul li:nth-child(7) span{
+    background-image:url('../img/icon_mycenter.png');
+    background-size: 1.6rem auto;
+    background-position: 0 -22.4rem;
+}
+.jym_my .my-center .Seller ul li:nth-child(8) span{
+    background-image:url('../img/icon_mycenter.png');
+    background-size: 1.6rem auto;
+    background-position: 0 -24.0rem;
+}
+.jym_my .my-center .Seller ul li:nth-child(9) span{
+    background-image:url('../img/icon_mycenter.png');
+    background-size: 1.6rem auto;
+    background-position: 0 -19.2rem;
+}
+.jym_my .my-center .store-management ul li:nth-child(1) span{
+    background-image:url('../img/icon_mycenter.png');
+    background-size: 1.6rem auto;
+    background-position: 0 -16.0rem;
+}
+.jym_my .my-center .store-management ul li:nth-child(2) span{
+    background-image:url('../img/icon_mycenter.png');
+    background-size: 1.6rem auto;
+    background-position: 0 -17.6rem;
+}
+.jym_my .my-center .log-out{
+    width:9.546667rem;
+    font-size:0.373333rem;
+    text-align:center;
+    color:#333;
+    margin:0 auto;
+    border:1px solid #ccc;
+    margin-top:0.266667rem;
+    background-color:#fff;
+    line-height:1.173333rem;
+}
+
